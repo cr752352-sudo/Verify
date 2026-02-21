@@ -1,8 +1,8 @@
 const { Client, GatewayIntentBits, SlashCommandBuilder, REST, Routes, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } = require('discord.js');
 const fetch = require('node-fetch');
 
-const TOKEN = process.env.BOT_TOKEN;
-const CLIENT_ID = process.env.CLIENT_ID;
+const TOKEN = process.env.BOT_TOKEN; MTQ3NDY2MTYxOTcyMzI3MjM2Mw.Gsij6j.PIUm9mjQ86k8ETvEilXa25gGhYkN1LGBdvKPAs
+const CLIENT_ID = process.env.CLIENT_ID; 1474661619723272363
 const VERIFIED_ROLE_NAME = process.env.VERIFIED_ROLE || 'Verified';
 
 const client = new Client({
@@ -94,3 +94,4 @@ client.on('interactionCreate', async interaction => {
 });
 
 client.login(TOKEN);
+
